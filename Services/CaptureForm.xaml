@@ -1,0 +1,34 @@
+<Window x:Class="OcrTool.Services.CaptureForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="#88000000"
+        Cursor="Cross"
+        Title="CaptureForm">
+    <Grid>
+        <Image x:Name="ScreenImage" Stretch="Fill"/>
+        <Canvas x:Name="SelectionCanvas">
+            <Rectangle x:Name="SelectionRect" 
+                       Stroke="Green" 
+                       StrokeThickness="2"
+                       Fill="#20FFFFFF"
+                       Visibility="Hidden"/>
+            <Rectangle x:Name="TopBorder" Fill="White" Height="1" Visibility="Hidden"/>
+            <Rectangle x:Name="BottomBorder" Fill="White" Height="1" Visibility="Hidden"/>
+            <Rectangle x:Name="LeftBorder" Fill="White" Width="1" Visibility="Hidden"/>
+            <Rectangle x:Name="RightBorder" Fill="White" Width="1" Visibility="Hidden"/>
+            <Rectangle x:Name="TopLeftCorner" Fill="White" Width="6" Height="6" Visibility="Hidden"/>
+            <Rectangle x:Name="TopRightCorner" Fill="White" Width="6" Height="6" Visibility="Hidden"/>
+            <Rectangle x:Name="BottomLeftCorner" Fill="White" Width="6" Height="6" Visibility="Hidden"/>
+            <Rectangle x:Name="BottomRightCorner" Fill="White" Width="6" Height="6" Visibility="Hidden"/>
+        </Canvas>
+        <TextBlock x:Name="HintText" 
+                   Text="拖动鼠标选择区域，按Enter确认，按Esc取消" 
+                   Foreground="White" 
+                   FontSize="14"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Bottom"
+                   Margin="0,0,0,30"/>
+    </Grid>
+</Window>

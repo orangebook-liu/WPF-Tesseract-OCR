@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "cJ36pm7XWfk=",
+  "success": true,
+  "projectFilePath": "D:\\项目\\C#\\AI\\OcrTool\\OcrTool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\13361\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+    "C:\\Users\\13361\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\13361\\.nuget\\packages\\system.drawing.common\\8.0.0\\system.drawing.common.8.0.0.nupkg.sha512",
+    "C:\\Users\\13361\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\13361\\.nuget\\packages\\tesseract\\5.2.0\\tesseract.5.2.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "OcrTool 依赖于 Tesseract (>= 5.1.0)，但没有找到 Tesseract 5.1.0。已改为解析 Tesseract 5.2.0。",
+      "projectPath": "D:\\项目\\C#\\AI\\OcrTool\\OcrTool.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\项目\\C#\\AI\\OcrTool\\OcrTool.csproj",
+      "libraryId": "Tesseract",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    }
+  ]
+}
